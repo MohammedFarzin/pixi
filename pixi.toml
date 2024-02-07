@@ -1,0 +1,16 @@
+[project]
+name = "pixi-hello-world"
+version = "0.1.0"
+description = "Add a short description here"
+authors = ["MohammedFarzin <mohammedfarzin.m123@gmail.com>"]
+channels = ["conda-forge"]
+platforms = ["win-64", "linux-64", "osx-64", "osx-arm64"]
+
+[tasks]
+hello = "python hello_world.py"
+
+[dependencies]
+python = ">=3.12.1,<3.13"
+optuna = ">=3.5.0,<3.6"
+scikit-learn = ">=1.4.0,<1.5"
+matplotlib = ">=3.8.2,<3.9"
